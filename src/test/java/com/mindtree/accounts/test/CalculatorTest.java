@@ -32,8 +32,8 @@ public class CalculatorTest {
 	@Test
 	public void testMultiply() {
 		int result =calculator.multiply(2, 10);
-		assertEquals(20, result);
-	//	fail("Not yet implemented");
+	//	assertEquals(20, result);
+		fail("Not yet implemented");
 	}
 
 	@Test
