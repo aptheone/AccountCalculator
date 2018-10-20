@@ -10,7 +10,14 @@ package com.mintree.accounts;
 public class Calculator {
 	
 	public int add(int a, int b) {
-		return a+b;
+		
+		if (a<0 && b<0) {
+			return a+b;
+		} else {
+			return a+b;
+		}
+		
+		
 	}
 
 	public int substract(int a, int b) {

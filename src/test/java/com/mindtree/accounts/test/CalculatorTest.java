@@ -19,12 +19,19 @@ public class CalculatorTest {
 	public void testAdd() {
 		int result =calculator.add(2, 10);
 		assertEquals(12, result);
+		
+		 result =calculator.add(-2, -10);
+		assertEquals(-12, result);
+		
 	//	fail("Not yet implemented");
 	}
 
 	@Test
 	public void testSubstract() {
 		int result =calculator.substract(10, 2);
+		assertEquals(8, result);
+		
+		 result =calculator.substract(2, 10);
 		assertEquals(8, result);
 		//fail("Not yet implemented");
 	}
