@@ -5,7 +5,9 @@
 	<groupId>com.accounts</groupId>
 	<artifactId>AccountCalculator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+<!-- 	
+	This is a sample pom file.
+ -->
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -30,6 +32,11 @@
 						<source>1.8</source>
 						<target>1.8</target>
 					</configuration>
+				</plugin>
+
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>3.0.0-M1</version>
 				</plugin>
 
 				<plugin>
