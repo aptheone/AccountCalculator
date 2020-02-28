@@ -6,7 +6,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.mintree.accounts.Calculator;
-
+/*This is business Class*/
 public class CalculatorTest {
 
 	static Calculator calculator = null;
