@@ -65,12 +65,6 @@
 	<distributionManagement>
 		   <repository>
 		      <id>deployment</id>
-		      <name>Internal Release</name>
-			<url>http://localhost:8081/repository/maven-releases/</url>
-		   </repository>
-
-		   <repository>
-		      <id>deployment</id>
 		      <name>Internal Snapshot Release</name>
 			<url>http://localhost:8081/repository/nexus_mindtree_repo/</url>
 		   </repository>
